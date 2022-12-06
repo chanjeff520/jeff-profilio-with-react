@@ -1,15 +1,14 @@
 import React from "react";
 import selfPortrait from "../images/me.png";
 
-export default function Footer () {
+export default function AboutMe() {
     return (
         <div>
             <div className="grid grid-cols-4 gap-4">
                 <h1 className="col-start-2 col-span-2 mx-auto my-5 text-4xl">About Me</h1>
             </div>
             <article className="mx-20">
-                <img className="rounded object-contain h-80 mx-auto my-5" src={selfPortrait} alt="Picture of Me">
-                </img>
+            <img className="rounded object-contain h-80 mx-auto my-5" src={selfPortrait} alt="self portrait"/>
                 <p className="mb-5">
                     Hello! My name is Jeff Chan and I am a full stack web developer with a background in customer service and sales. 
                     Before that I was a student at the University of Delaware and pursuing a degree in environmental engineering. 

@@ -10,7 +10,8 @@ export default function MainComponent() {
     const [getPage, setPage] = useState('#AboutMe');
 
     const switchPages = () => {
-        if(getPage === '#AboutMe') {
+        console.log(getPage)
+        if(getPage === 'AboutMe') {
             return <AboutMe/>
         }else if(getPage === 'Portfolio') {
             return <Portfolio/>
@@ -22,12 +23,12 @@ export default function MainComponent() {
     }
 
     return (
-        <body>
+        <div>
             <Navigation getPage={getPage} setPage={setPage}/>
             <div className= "flex flex-col h-screen justify-between">
                 {switchPages()}
                 <Footer/>
             </div>
-        </body>
+        </div>
     )
 }
