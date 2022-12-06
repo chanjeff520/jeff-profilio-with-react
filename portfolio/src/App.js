@@ -1,8 +1,8 @@
-import Navigation from "./components/Navigation";
+import MainComponent from "./components/MainComponent";
 
 function App() {
   return (
-    <Navigation/>
+    <MainComponent/>
   );
 }
 
