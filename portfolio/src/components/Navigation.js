@@ -4,7 +4,7 @@ export default function Navigation({getPage, setPage}) {
   return (
     <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
-        <h1 className="self-center ml-10 text-4xl font-semibold whitespace-nowrap dark:text-white">
+        <h1 className="self-center ml-10 text-5xl font-semibold whitespace-nowrap dark:text-white">
           Jeff Chan
         </h1>
         <div className="w-full md:block md:w-auto">
@@ -13,7 +13,7 @@ export default function Navigation({getPage, setPage}) {
               <a
                 href="#about-me"
                   onClick={() => setPage('AboutMe')}
-                className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                className="block py-2 pl-3 pr-4 text-gray-700 text-xl rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 About Me
               </a>
@@ -22,7 +22,7 @@ export default function Navigation({getPage, setPage}) {
               <a
                 href="#portfolio"
                 onClick={() => setPage('Portfolio')}
-                className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                className="block py-2 pl-3 pr-4 text-gray-700 text-xl rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 Portfolio
               </a>
@@ -31,7 +31,7 @@ export default function Navigation({getPage, setPage}) {
               <a
                 href="#contact-me"
                 onClick={() => setPage('ContactMe')}
-                className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                className="block py-2 pl-3 pr-4 text-gray-700 text-xl rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 Contact Me
               </a>
@@ -40,7 +40,7 @@ export default function Navigation({getPage, setPage}) {
               <a
                 href="#resume"
                 onClick={() => setPage('Resume')}
-                className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                className="block py-2 pl-3 pr-4 text-gray-700 text-xl rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 Resume
               </a>

@@ -9,7 +9,7 @@ export default function AboutMe() {
             </div>
             <article className="mx-20">
             <img className="rounded object-contain h-80 mx-auto my-5" src={selfPortrait} alt="self portrait"/>
-                <p className="mb-5">
+                <p className="mb-5 text-center text-lg">
                     Hello! My name is Jeff Chan and I am a full stack web developer with a background in customer service and sales. 
                     Before that I was a student at the University of Delaware and pursuing a degree in environmental engineering. 
                     I am a self-taught developer who is passionate about learning new technologies and creating applications that are both functional and beautiful with experience in many programming like c, c++, Java, JavaScript, ect. 
