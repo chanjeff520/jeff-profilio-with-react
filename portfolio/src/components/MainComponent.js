@@ -7,10 +7,10 @@ import ContactMe from "./ContactMe";
 import Resume from "./Resume";
 
 export default function MainComponent() {
-    const [getPage, setPage] = useState('AboutMe');
+    const [getPage, setPage] = useState('#AboutMe');
 
     const switchPages = () => {
-        if(getPage === 'AboutMe') {
+        if(getPage === '#AboutMe') {
             return <AboutMe/>
         }else if(getPage === 'Portfolio') {
             return <Portfolio/>
@@ -22,10 +22,12 @@ export default function MainComponent() {
     }
 
     return (
-        <body className= "flex flex-col h-screen justify-between">
+        <body>
             <Navigation getPage={getPage} setPage={setPage}/>
-            {switchPages()}
-            <Footer/>
+            <div className= "flex flex-col h-screen justify-between">
+                {switchPages()}
+                <Footer/>
+            </div>
         </body>
     )
 }

@@ -6,3 +6,13 @@ https://github.com/johnfrom209/Pokemon-Prime : No Link rn
 https://github.com/chanjeff520/e-commerce-database : https://drive.google.com/file/d/1j0ZkmlX3HeURuBXR1YpcFJCDX-yVGbgR/view (link to video)
  
 */
+
+import React from "react";
+
+export default function Portfolio() { 
+    return (
+        <div>
+            <h1>Portfolio</h1>
+        </div>
+    )
+}

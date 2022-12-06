@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Footer () {
+export default function ContactMe() {
     return (
         <div>
-            <h1>About Me</h1>
+            <h1>Contact Me</h1>
         </div>
     )
 }
