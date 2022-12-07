@@ -6,9 +6,11 @@ import Portfolio from "./Portfolio";
 import ContactMe from "./ContactMe";
 import Resume from "./Resume";
 
+// Main component, switch between pages and render the page
 export default function MainComponent() {
     const [getPage, setPage] = useState('AboutMe');
 
+    // switch between pages
     const switchPages = () => {
         console.log(getPage)
         if(getPage === 'AboutMe') {

@@ -25,7 +25,7 @@ export default function Portfolio() {
                      Click on To Deployed Site to see the deployed site. If the link is broken, it means the site is no longer deployed.
                 </p>
             </div>
-            <div className="grid grid-cols-7 gap-4">
+            <div className="grid grid-cols-7 gap-4 mb-20">
                 <section className="col-start-2 col-span-5 flex flex-wrap justify-between mx-20">
                     <div className="">
                         <h1 className="border-2 border-blue-900 rounded-xl bg-slate-800 text-white mx-auto text-xl text-center relative top-12"> Eiga Reviews </h1>

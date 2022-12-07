@@ -9,6 +9,7 @@ export default function Resume() {
                 <h1 className="col-start-2 col-span-2 mx-auto my-5 text-4xl">Resume</h1>
                 {/* embed the resume on to the page, if the user want to download the resume, they are about to do it within the embedded doc */}
                 <embed src={resumePdf} width="1000px" height="1200px"className="col-start-2 col-span-2 mx-auto my-5 "/>
+                <a href={resumePdf} download className="col-start-2 col-span-2 mx-auto my-5 text-2xl hover:text-blue-800 hover:underline">Download Resume (Click Here)</a>
             </div>
 
             <section className="flex flex-wrap justify-between mx-40">
