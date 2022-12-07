@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/portfolio-with-react/static/css/main.265e8557.css",
+    "main.js": "/portfolio-with-react/static/js/main.31d03bf2.js",
+    "static/media/me.png": "/portfolio-with-react/static/media/me.63d9dab2b282141b4f86.png",
+    "static/media/Note-Taker.gif": "/portfolio-with-react/static/media/Note-Taker.afd5cc40d4b26e9c44ec.gif",
+    "static/media/sounds-like.png": "/portfolio-with-react/static/media/sounds-like.67e12ea3914eecf8c5c0.png",
+    "static/media/eiga.png": "/portfolio-with-react/static/media/eiga.00dc399bdacc34b1ef33.png",
+    "static/media/pokemon-prime.png": "/portfolio-with-react/static/media/pokemon-prime.0b8721f5531be7368f1d.png",
+    "static/media/JeffChanResume.docx.pdf": "/portfolio-with-react/static/media/JeffChanResume.docx.99ecfe8f9fa5a527c647.pdf",
+    "index.html": "/portfolio-with-react/index.html",
+    "main.265e8557.css.map": "/portfolio-with-react/static/css/main.265e8557.css.map",
+    "main.31d03bf2.js.map": "/portfolio-with-react/static/js/main.31d03bf2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.265e8557.css",
+    "static/js/main.31d03bf2.js"
+  ]
+}
