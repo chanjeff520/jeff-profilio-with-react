@@ -7,7 +7,7 @@ import ContactMe from "./ContactMe";
 import Resume from "./Resume";
 
 export default function MainComponent() {
-    const [getPage, setPage] = useState('#AboutMe');
+    const [getPage, setPage] = useState('AboutMe');
 
     const switchPages = () => {
         console.log(getPage)
