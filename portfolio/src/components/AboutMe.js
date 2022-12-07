@@ -1,6 +1,7 @@
 import React from "react";
 import selfPortrait from "../images/me.png";
 
+// AboutMe component
 export default function AboutMe() {
     return (
         <div>

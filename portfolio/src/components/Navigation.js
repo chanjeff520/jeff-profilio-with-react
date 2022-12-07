@@ -1,5 +1,9 @@
 import React from "react";
 
+// This is the navigation bar at the top of the page
+// It is a functional component that takes in two props, getPage and setPage
+// getPage is the current page that the user is on
+// setPage is a function that sets the current page to the page that the user clicks on
 export default function Navigation({getPage, setPage}) {
   return (
     <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">

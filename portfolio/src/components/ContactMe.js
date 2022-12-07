@@ -1,10 +1,12 @@
 import React, {useState} from "react";
 
+// ContactMe component
 export default function ContactMe() {
     const[getEmail, setEmail] = useState('');
     const[getName, setName] = useState('');
     const[getText, setText] = useState('');
 
+    //handleOnChange handles the input from the user when they type in the form
     const handleOnChange = (e) => {
         e.preventDefault();
 
@@ -20,6 +22,7 @@ export default function ContactMe() {
         }
     }
 
+    // handleOnSubmit handles the input from the user when they submit the form
     const handleOnSubmit = (e) => {
         e.preventDefault();
         console.log(getEmail, getName, getText);

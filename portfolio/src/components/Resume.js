@@ -1,11 +1,13 @@
 import React from "react";
 import resumePdf from "../images/JeffChanResume.docx.pdf"
 
+// Resume component
 export default function Resume() {
     return (
         <div>
             <div className="grid grid-cols-4 gap-4">
                 <h1 className="col-start-2 col-span-2 mx-auto my-5 text-4xl">Resume</h1>
+                {/* embed the resume on to the page, if the user want to download the resume, they are about to do it within the embedded doc */}
                 <embed src={resumePdf} width="1000px" height="1200px"className="col-start-2 col-span-2 mx-auto my-5 "/>
             </div>
 
